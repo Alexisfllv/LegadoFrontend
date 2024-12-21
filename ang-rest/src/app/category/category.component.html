@@ -1,0 +1,65 @@
+<mat-list role="list">
+  @for (cat of categories; track $index) {
+  <mat-list-item role="listitem">{{ cat.nameofCategory }}</mat-list-item>
+  <mat-divider></mat-divider>
+  }
+</mat-list>
+
+<button mat-stroked-button>Basic</button>
+
+<!-- TEST DE TARJETAS  -->
+<mat-card class="example-card" appearance="outlined">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>Jeong-yeon (유정연)</mat-card-title>
+    <mat-card-subtitle>Yoo</mat-card-subtitle>
+  </mat-card-header>
+  <img
+    mat-card-image
+    src="https://i.pinimg.com/736x/13/71/7c/13717c9e7ec142fc1dfb01320c3ccdf7.jpg"
+    alt="Photo of a Shiba Inu"
+  />
+  <mat-card-content>
+    <p>
+        <strong>Nombre completo:</strong> Yoo Jeong-yeon (유정연) <br>
+        <strong>Fecha de nacimiento:</strong> 1 de noviembre de 1996 <br>
+        <strong>Lugar de nacimiento:</strong> Suwon, Corea del Sur <br>
+        <strong>Posición en Twice:</strong> Vocalista principal <br>
+        <strong>Agencia:</strong> JYP Entertainment <br>
+        <strong>Debut:</strong> 20 de octubre de 2015 con el álbum <em>The Story Begins</em> de Twice. <br>
+        <strong>Características:</strong> Jeongyeon es conocida por su voz distintiva y su carisma en el escenario. Su apodo es "Jjeong" o "Jeongyeon-ah".
+      </p>
+      
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>
+
+<mat-chip-set aria-label="Dog selection">
+    <mat-chip>
+      <img
+        matChipAvatar
+        src="https://i.pinimg.com/736x/4e/59/c4/4e59c45df95a7aeda263851d2135bae8.jpg"
+        alt="Photo of a Shiba Inu"
+      />
+      Jeong- one
+    </mat-chip>
+    <mat-chip>
+      <img
+        matChipAvatar
+        src="https://i.pinimg.com/736x/5c/04/f0/5c04f0a2c336ea521d1818deec1f1721.jpg"
+        alt="Photo of a Shiba Inu"
+      />
+      Jeong- two
+    </mat-chip>
+    <mat-chip>
+      <img
+        matChipAvatar
+        src="https://i.pinimg.com/736x/64/db/04/64db04a6f4b93fcb8309c37d16c4ce7c.jpg"
+        alt="Photo of a Shiba Inu"
+      />
+      Jeong- three
+    </mat-chip>
+  </mat-chip-set>

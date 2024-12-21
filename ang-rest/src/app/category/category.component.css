@@ -1,0 +1,8 @@
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://i.pinimg.com/736x/f5/1a/62/f51a627973fab282c8b96f0188845182.jpg');
+    background-size: cover;
+  }
